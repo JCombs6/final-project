@@ -1,31 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="styles.css"/>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Jason's Final Project</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/styles.css">
   <!--Bootstrap-->
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css"/>
   <title>Jason's Final Project</title>
 </head>
 <body>
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="#">
-          <img src="../img/bicycle-solid.svg" alt="bicycle logo">
-        </a>
-        <ul>
-          <li class="Home"></li>
-          <li class="About"></li>
-          <li class="Contact"></li>
-        </ul>
+  <div class="container-fluid">
+  		<div class="row">
+  			<header class="col-md-12">  <!-- Header Start -->
+  				<div class="logo pull-left">
+  					<a href="file:///C:/Users/jay_1/final-project/index.html"> <img src="img/bicycle-solid.svg" alt="Bicycle" id=logo /></a>
+  					<h1>Title</h1>
+  				</div>
+  				<nav class="navbar pull-right">
+  					<ul class="nav nav-pills">
+  						<li role="presentation" class="active"><a href="#">Home</a></li>
+  						<li role="presentation"><a href="#">About Me</a></li>
+  						<li role="presentation"><a href="contact.html">Contact Us</a></li>
+  					</ul>
+  				</nav>
+  			</header> <!-- Header End -->
+  		</div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="jumbotron">
+            <h1 class="title">Jason Combs' Portfolio</h1>
+          </div>
+        </div>
+      </div>
+<!--My Projects-->
+    <div class="row">
+      <div class="col-md-6">
+          <img class="project-img img-responsive img-thumbnail img-circle" src="img/Ale logo.png" alt="Ginger ale">
+          <h3>Ginger Ale Project</h3>
+          <p>First website I created in Bootcamp 1</p>
+          <ul class="nav nav-pills">
+            <li role="presentation" class="active"><a href="#">Click to View</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6 pull-right">
+          <img class="project-img img-responsive img-thumbnail img-circle" src="img/mindful.jpg" alt="Mindfulness">
+          <h3>Mindfulness Project</h3>
+          <p>Bootcamp 1 final project, that didn't quite turn out like I had hoped</p>
+          <ul class="nav nav-pills">
+            <li role="presentation" class="active"><a href="#">Click to View</a></li>
+          </ul>
+        </div>
+      </div>
+    <!-- <div class="row">
+      <div class="col-md-12 projects">
+        <div class="col-md-4-offset project-one">
+          <img class="project-img img-responsive img-thumbnail img-circle" src="img/Ale logo.png" alt="ginger ale">
+        </div>
+        <div class="col-md-4-offset project-two">
+          <img class="project-img img-responsive img-thumbnail img-rounded" src="img/mindful.jpg" alt="minfulness">
+        </div>
+        <div class="col-md-4-offset project-three">
+          <img class="project-img img-responsive img-thumbnail img-circle" src="img/restaurant.png" alt="fork and knife">
+        </div>
+      </div>
+      </div> -->
+
+<!--Footer Start-->
+  <footer>
+    <div class="col-md-12">
+      <div class="col-sm-4">
+
+      </div>
+      <div class="col-sm-4">
+
+      </div>
+      <div class="col-sm-4">
+
       </div>
     </div>
-  </nav>
-
-
+  </footer>
+    <!-- scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
