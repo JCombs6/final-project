@@ -1,11 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Oswald');
 
-font-family: 'Lato', sans-serif;
-
-font-family: 'Oswald', sans-serif;
+/* Variables */
+:root {
+  --Lato: 'Lato', sans-serif;
+  --Oswald: 'Oswald', sans-serif;
+}
 
 li {
   font-family: Oswald, sans-serif;
+}
+
+@media only screen and (max-width: 780px) {
+    body {
+         background-color: lightblue;
+    }
 }
 
 .navbar-pull-right {
@@ -17,6 +25,18 @@ li {
   height: 50px;
 }
 
+.space-middle {
+  background-color: blue;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.self {
+  height: 200px;
+  width: 200px;
+}
+
 .jumbotron {
   background-color: black;
   height: 100px;
@@ -26,7 +46,7 @@ li {
 
 .title {
   font-size: 5em;
-  font: Lato;
+  font: Oswald;
   color: orange;
   font-weight: bold;
   text-align: center;
@@ -37,6 +57,20 @@ li {
   border-radius: 20px;
 }
 
+.ginger-ale {
+  background-color: #66a3ff;
+  margin-top: 50px;
+}
+
+.mindfulness {
+  background-color: #00ffff;
+  margin-top: 50px;
+}
+
+.restaurant {
+  background-color: #8080ff;
+  margin-top: 50px;
+}
 .projects {
   background-color: red;
   width: 100%;
@@ -55,4 +89,44 @@ li {
   background-color: #ffffff;
   padding: 300px;
   height: 300px
+}
+
+.restaurant-response {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.inner {
+  background-color: #9494b8;
+  margin-top: 30px;
+}
+
+.col-sm-3-offset-1 {
+  background-color: #ffffff;
+}
+
+.restaurant-img {
+  margin-top: 25px;
+  height: 200px;
+  width: 200px
+}
+
+.footer-left {
+  background-color: orange;
+  padding: 30px;
+  margin-top: 40px;
+}
+
+.footer-middle {
+  padding: 15px;
+  background-color: black;
+  margin-top: 40px;
+}
+
+.footer-right {
+  background-color: orange;
+  padding: 30px;
+  margin-top: 40px;
 }

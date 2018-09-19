@@ -6,7 +6,7 @@
 	<title>Jason's Final Project</title>
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/styles.css">
   <!--Bootstrap-->
   <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -23,40 +23,88 @@
   				</div>
   				<nav class="navbar pull-right">
   					<ul class="nav nav-pills">
-  						<li role="presentation" class="active"><a href="#">Home</a></li>
-  						<li role="presentation"><a href="#">About Me</a></li>
-  						<li role="presentation"><a href="contact.html">Contact Us</a></li>
+							<li role="presentation" class="active"><a href="home.html" target="_blank">Home</a></li>
+  						<li role="presentation" class="active"><a href="about.html" target="_blank">About Me</a></li>
+  						<li role="presentation" class="active"><a href="contact.html" target="_blank">Contact Us</a></li>
   					</ul>
   				</nav>
   			</header> <!-- Header End -->
-  		</div>
+				<!-- <div id="carousel-example-generic" class="carousel slide" data-ride="carousel"> -->
+	  <!-- Indicators -->
+	  		<!-- <ol class="carousel-indicators">
+			    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			  </ol> -->
+
+			  <!-- Wrapper for slides -->
+			 <!-- <div class="carousel-inner" role="listbox">
+			    <div class="item active">
+			      <img class="img-responsive" src="img/sunset.jpg" alt="Sunset Image">
+			      <div class="carousel-caption">
+							<img class="horizone-logo" src="img/Horizonone.jpg" alt="Horizon Image">
+			     </div>
+			   </div>
+  		</div> -->
 
       <div class="row">
         <div class="col-md-12">
           <div class="jumbotron">
+						<!-- <img class="horizon" src="img/Horizonone.jpg" alt="Horizon Image" -->
             <h1 class="title">Jason Combs' Portfolio</h1>
           </div>
         </div>
       </div>
+
+			<div class="row">
+				<div class="col-sm-3 space-left">
+
+				</div>
+
+				<div class="col-md-6 space-middle">
+					<img class="self img-responsive img-thumbnail" src="img/jasonpic.jpg" alt="Jason's picture">
+				</div>
+
+				<div class="col-sm-3 space-right">
+
+				</div>
+
+			</div>
 <!--My Projects-->
-    <div class="row">
-      <div class="col-md-6">
-          <img class="project-img img-responsive img-thumbnail img-circle" src="img/Ale logo.png" alt="Ginger ale">
-          <h3>Ginger Ale Project</h3>
-          <p>First website I created in Bootcamp 1</p>
-          <ul class="nav nav-pills">
-            <li role="presentation" class="active"><a href="#">Click to View</a></li>
-          </ul>
-        </div>
-        <div class="col-md-6 pull-right">
-          <img class="project-img img-responsive img-thumbnail img-circle" src="img/mindful.jpg" alt="Mindfulness">
-          <h3>Mindfulness Project</h3>
-          <p>Bootcamp 1 final project, that didn't quite turn out like I had hoped</p>
-          <ul class="nav nav-pills">
-            <li role="presentation" class="active"><a href="#">Click to View</a></li>
-          </ul>
-        </div>
-      </div>
+	    <div class="row">
+	      <div class="col-md-6 pull-left ginger-ale">
+	          <img class="project-img img-responsive img-thumbnail img-circle" src="img/Ale logo.png" alt="Ginger ale">
+	          <h3>Ginger Ale Project</h3>
+	          <p>First website I created in Bootcamp 1</p>
+	          <ul class="nav nav-pills">
+	            <li role="presentation" class="active"><a href="https://gingerale-jmcombs6.c9users.io/index.html" target="_blank">Click to View</a></li>
+	          </ul>
+	      </div>
+
+	      <div class="col-md-6 pull-right mindfulness">
+	          <img class="project-img img-responsive img-thumbnail img-circle" src="img/mindful.jpg" alt="Mindfulness">
+	          <h3>Mindfulness Project</h3>
+	          <p>Bootcamp 1 final project, that didn't quite turn out like I had hoped</p>
+	          <ul class="nav nav-pills">
+	            <li role="presentation" class="active"><a href="https://gingerale-jmcombs6.c9users.io/index.html" target="_blank">Click to View</a></li>
+	          </ul>
+	      </div>
+
+				<div class="row">
+					<div class="col-md-12 restaurant-response">
+						<div class="col-md-6 pull-right inner">
+							<img class="restaurant-img img-responsive img-circle" src="img/restaurant.png" alt="Restaurant">
+							<h3>Restaurante</h3>
+							<p>Bootcamp 2 restaurant project</p>
+							<ul class="nav nav-pills">
+								<li role="presentation" class="active"><a href="#" target="_blank">Click to View</a></li>
+							</ul>
+						</div>
+						<div class="col-sm-3-offset-1">
+
+						</div>
+					</div>
+				</div>
     <!-- <div class="row">
       <div class="col-md-12 projects">
         <div class="col-md-4-offset project-one">
@@ -74,13 +122,17 @@
 <!--Footer Start-->
   <footer>
     <div class="col-md-12">
-      <div class="col-sm-4">
+      <div class="col-sm-4 footer-left">
 
       </div>
-      <div class="col-sm-4">
-
+      <div class="col-sm-4 footer-middle">
+				<div class="icon-wrap"
+					<a href="https://www.facbook.com/jason.combs.923" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+          <a href="https://www.twitter.com/@Mr_Senor_Hason" target="_blank"><i class="icon fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+          <a href="https://www.foursquare.com/" target="_blank"><i class="icon fa fa-foursquare fa-2x"></i></a>
+				</div>
       </div>
-      <div class="col-sm-4">
+      <div class="col-sm-4 footer-right">
 
       </div>
     </div>
