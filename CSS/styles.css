@@ -16,13 +16,26 @@ li {
     }
 }
 
+body {
+  background-color: #ffffff;
+}
+
 .navbar-pull-right {
   display: flex;
   align-items: flex-start;
+  position: fixed;
 }
 
 .logo {
   height: 50px;
+}
+
+.bike:hover {
+  color: #ffff4d;
+}
+
+.active:hover {
+  color: #ffff4d;
 }
 
 .space-middle {
@@ -44,10 +57,16 @@ li {
   padding: 100px;
 }
 
+.jumbo-img {
+  height: 75px;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
 .title {
   font-size: 5em;
-  font: Oswald;
-  color: orange;
+  font-family: Oswald, sans-serif;
+  color: #ffffff;
   font-weight: bold;
   text-align: center;
   margin-bottom: 100px
@@ -61,6 +80,14 @@ li {
   background-color: #66a3ff;
   margin-top: 50px;
 }
+
+/* .description-ale {
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  text-align: left;
+  margin-top: 40px;
+} */
 
 .mindfulness {
   background-color: #00ffff;
@@ -114,7 +141,7 @@ li {
 }
 
 .footer-left {
-  background-color: orange;
+  background-color: #ffffff;
   padding: 30px;
   margin-top: 40px;
 }
@@ -126,7 +153,22 @@ li {
 }
 
 .footer-right {
-  background-color: orange;
+  background-color: #ffffff;
   padding: 30px;
   margin-top: 40px;
+}
+
+.copyright {
+  color: #ffffff;
+  margin-left: 200px;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon:hover {
+  color: #ff0000;
 }
