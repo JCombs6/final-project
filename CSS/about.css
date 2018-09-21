@@ -49,6 +49,16 @@ body {
   align-items: center;
 }
 
+/* .carousel{
+   position: absolute;
+   margin-bottom: 20px;
+   line-height:1;
+   top:0;
+   left:0;
+   min-width:100%;
+   min-height: 200px;
+   max-height: 300px; */
+
 .item {
   font-size: 1em;
   font-family: Lato, serif;

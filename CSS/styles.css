@@ -29,7 +29,7 @@ body {
 .navbar-pull-right {
   display: flex;
   align-items: flex-start;
-  position: fixed;
+  position: absolute;
 }
 
 .logo {
@@ -64,9 +64,9 @@ body {
 }
 
 .jumbo-img {
-  height: 75px;
+  height: 100px;
   width: 100%;
-  margin-bottom: 100px;
+  margin-bottom: 0px;
 }
 
 .title {
@@ -76,6 +76,7 @@ body {
   font-weight: bold;
   text-align: center;
   margin-bottom: 100px
+  margin-top: 50px;
 }
 
 .one {
