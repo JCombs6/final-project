@@ -16,6 +16,12 @@ li {
     }
 }
 
+@media screen and (min-width: 600px) {
+  div.example {
+    font-size: 80px;
+  }
+}
+
 body {
   background-color: #ffffff;
 }
