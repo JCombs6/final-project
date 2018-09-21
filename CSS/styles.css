@@ -45,7 +45,7 @@ body {
 }
 
 .space-middle {
-  background-color: blue;
+  background-color: #80aaff;
   padding: 20px;
   display: flex;
   justify-content: center;
@@ -116,6 +116,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-left: 230px;
 }
 
 .project-one {
@@ -136,6 +137,11 @@ body {
   margin-top: 30px;
 }
 
+.h-3 {
+  text-align: center;
+  font-family: Oswald, sans-serif;
+}
+
 .col-sm-3-offset-1 {
   background-color: #ffffff;
 }
@@ -144,6 +150,7 @@ body {
   margin-top: 25px;
   height: 200px;
   width: 200px
+  margin-left: 200px;
 }
 
 .footer-left {
